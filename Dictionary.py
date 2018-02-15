@@ -30,7 +30,7 @@ while True:
     action = input('What would you like to do?\n'
                    'Add new expression - enter "add"\n'
                    'Look all the expressions - enter "list"\n'
-                   'Edit an expression - enter "edit\n'
+                   'Edit an expression - enter "edit"\n'
                    'Exit this awesome dictionary - enter "exit"'
                    ).lower()
     if action == 'add':
