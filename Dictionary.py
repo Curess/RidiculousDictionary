@@ -19,7 +19,7 @@ def edit():
     while True:
         a = input('Please, enter the expression you\'d like to edit...').lower()
         if a not in dictionary:
-            print('Sorry, there are no such expression yet')
+            print('Sorry, there is no such expression yet')
             break
         b = input('Please, enter the new meaning of this expression...').lower()
         dictionary[a] = b
